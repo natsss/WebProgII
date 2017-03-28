@@ -1,0 +1,36 @@
+<!doctype html>
+<head>
+<title>Formular</title>
+</head>
+<style type="text/css">
+    #formular { border: hidden; float: left; background-color: gainsboro; height: 200px; }
+    #aside { border: hidden; float: left; background-color: lightgoldenrodyellow; width: 100px; padding-left: 50px; padding-right: 50px; padding-bottom: 50px; padding-top: 50px; height: 100px; }
+</style>
+
+<body>
+
+<form action="auswertung.php" method="get" >
+
+<div id="formular">
+<form action="Formular" method="[get|post]">
+<b>Formular</b>
+    <br> 
+    <br>
+<P>Name: <INPUT TYPE="TEXT" NAME="Name" SIZE="30">
+<P>Vorname: <INPUT TYPE="TEXT" NAME="Vorname" SIZE="30">
+<P>Geburtsdatum: <INPUT TYPE="date" NAME="Geburtsdatum" value="1960-01-01">
+<P>Wohnort: <INPUT TYPE="TEXT" NAME="Wohnort" SIZE="30">
+<P><input type="SUBMIT" value="SUBMIT">
+</form>
+</div>
+    
+<aside>
+<div id="aside">
+        Bitte geben Sie in dem Formular alle geforderten Daten an.
+
+</div>
+</aside>
+</form>
+
+</body>
+</html>
